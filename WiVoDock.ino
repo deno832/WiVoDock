@@ -30,7 +30,7 @@ ezButton nextButton(NEXT_PIN);
 ezButton prevButton(PREV_PIN);
 
 const char* ssid = "Zyxel_A421"; // WiFi ağının adı
-const char* password = "my1977**"; // WiFi şifresi
+const char* password = ""; // WiFi şifresi
 
 WiFiServer server(80); // TCP bağlantıları için sunucu nesnesi, 80 numaralı port üzerinden iletişim sağlanacak
 
